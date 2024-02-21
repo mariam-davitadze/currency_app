@@ -1,0 +1,32 @@
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  overflow: hidden;
+}
+.app {
+  background-color: #dfdfdf;
+  display: flex;
+}
+* {
+  cursor: default;
+}
+button {
+  border: none;
+  outline: none;
+  outline-offset: none;
+  background: none;
+}
+.secondary-button {
+  border: 1px solid #e6259e;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  color: #e6259e;
+  font-weight: bold;
+  cursor: pointer;
+}
+.secondary-button:hover {
+  background-color: #e6259e50;
+}

@@ -3,7 +3,7 @@ import MainNavigator from "./Navigation/MainNavigator";
 
 function App() {
   return (
-    <div className="App" data-testid="app">
+    <div className="app" data-testid="app">
       <MainNavigator />
     </div>
   );
