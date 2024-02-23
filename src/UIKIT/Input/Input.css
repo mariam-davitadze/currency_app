@@ -1,0 +1,32 @@
+.custom-input {
+  position: relative;
+}
+.custom-input input {
+  margin-top: 1em;
+  border: none;
+  box-shadow: 1px 2px 4px #3d3d3d;
+  width: -webkit-fill-available;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  outline: none;
+  font-size: 1em;
+  cursor: text;
+}
+input:focus ~ .input-label,
+.input-with-value:not(:focus):valid ~ .input-label {
+  top: 0.5em;
+  left: 1em;
+  font-size: 0.75em;
+}
+input:not(:focus):valid ~ .input-label {
+  top: 1.25em;
+  left: 1em;
+}
+
+.input-label {
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top: 18px;
+  transition: 0.2s ease all;
+}
