@@ -1,11 +1,11 @@
 import { ChangeEvent, useEffect, useState } from "react";
 import "./Input.css";
-interface InputProps {
+export interface InputProps {
   type: string;
   placeholder?: string;
   isInvalid?: boolean;
   defaultValue?: string;
-  onChange?: (value: string) => null;
+  onChange?: (value: string) => any;
   disabled?: boolean;
 }
 const Input = ({
